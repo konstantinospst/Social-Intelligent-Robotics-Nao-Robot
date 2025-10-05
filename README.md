@@ -1,3 +1,5 @@
+This project explores how a NAO robot can moderate multi-party conversations—especially interruptions—by combining visual cues (face + lip-distance detection via MediaPipe) with Dialogflow for transcription/turn management. The system tracks lip movement to infer speaking, uses head tracking and eye-color cues for engagement, and enforces interruption rules (e.g., ~7-pixel lip distance for speech, ~0.3 s silence between sentences, ~2.5 s threshold for “major” interruptions). A pilot study (control vs. experimental runs) evaluated subjective measures (eye contact, sticking to topic, naturality) and objective ones (transcription accuracy, Fulfillment of Expected Behavior). Findings: improved eye contact but mixed conversational flow; transcription accuracy averaged ~60%, and only 2/7 experiments met key interruption-handling goals—leading to concrete next-step recommendations (e.g., adding speaker diarization and adaptive thresholds).
+
 "FINAL CODE" folder contains the script for the experiment
 
 Main libraries (requirement.txt included in the folder):
