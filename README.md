@@ -1,5 +1,3 @@
-# Group-2
-
 "FINAL CODE" folder contains the script for the experiment
 
 Main libraries (requirement.txt included in the folder):
